@@ -20,9 +20,15 @@ jobs:
         dotnet-version: 6.0.x
     - name: Checkout code
       uses: actions/checkout@v4
+    - name: Install Chrome
+      run:
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
     - name: Run tests
+      env:
+        CHROMEWEBDRIVER: /usr/bin/google-chrome
       run: dotnet test --no-build --verbosity normal
