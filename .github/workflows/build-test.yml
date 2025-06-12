@@ -21,7 +21,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
     - name: Install Chrome
-      run:
+      run: |
         sudo apt-get update
         sudo apt-get install -y google-chrome-stable
     - name: Restore dependencies
