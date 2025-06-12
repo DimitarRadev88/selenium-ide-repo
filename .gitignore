@@ -1,0 +1,108 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userprefs
+*.pdb
+*.obj
+*.exe
+*.dll
+*.pri
+*.sbr
+*.res
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]emp/
+[Tt]est[Rr]esults/
+
+# NuGet packages
+packages/
+*.nupkg
+.nuget/NuGetScratch/
+!packages.config # Keep if you use packages.config for dependency management
+
+# Rider (JetBrains IDE)
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# ReSharper
+*.DotSettings
+*.DotSettings.user
+
+# StyleCop/FxCop
+StyleCop.Cache
+FxCopReport.xml
+
+# NCrunch
+_NCrunch_*
+
+# Documentation
+*.doc
+*.docx
+*.pdf
+*.chm
+
+# Project-specific files
+*.resharper
+*.resharper.user
+*.resharper.json
+*.resharper.user.json
+*.cache
+*.zip
+*.rar
+*.7z
+*.bak
+*.orig
+*.swp
+*.swo
+*.tmp
+*.log
+*.err
+*.ipr
+*.iws
+*.vssscc
+*.vspscc
+*.local.testsettings
+*.trx
+*.publishprofile
+*.csproj.user
+*.sqlproj.user
+*.dbmdl.user
+*.jfm
+
+# User Secrets (ASP.NET Core)
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+appsettings.Local.json
+*.usersecrets
+
+# Azure tools
+.csx
+.azure/
+publish/
+
+# Other common files
+Thumbs.db
+Desktop.ini
+
+# Mac files
+.DS_Store
+
+# Advanced Installer
+*.aip
+
+# SQL Server Management Studio
+*.ssmssln
+
+# If you're building a web project, you might also include:
+wwwroot/lib/ # For client-side libraries managed by npm/bower etc.
+node_modules/ # If you're using Node.js for front-end tooling
